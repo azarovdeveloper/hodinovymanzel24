@@ -24,12 +24,21 @@ const I18nContext = createContext<I18nContextType | undefined>(undefined);
 export const I18nProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [lang, setLangState] = useState<Language>('cz');
 
+  const normalizeLang = (value: string | null): Language => {
+    if (value === 'cs' || value === 'cz') {
+      return 'cz';
+    }
+    if (value === 'en' || value === 'ru' || value === 'ua') {
+      return value;
+    }
+    return 'cz';
+  };
+
   useEffect(() => {
     // Keep Czech as the default unless the user explicitly selected a language before.
-    const savedLang = localStorage.getItem('appLang') as Language;
-    if (savedLang && translations[savedLang]) {
-      setLangState(savedLang);
-    }
+    const savedLang = normalizeLang(localStorage.getItem('appLang'));
+    setLangState(savedLang);
+    localStorage.setItem('appLang', savedLang);
   }, []);
 
   const setLang = (newLang: Language) => {
@@ -39,7 +48,7 @@ export const I18nProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const t = (path: string) => {
     const keys = path.split('.');
-    let result: any = translations[lang];
+    let result: any = translations[lang] ?? translations.cz;
     for (const key of keys) {
       if (result && typeof result === 'object') {
         result = result[key];
