@@ -50,7 +50,7 @@ export const Navbar = () => {
 
   const languages = [
     { code: 'en', label: 'English', flag: '🇬🇧' },
-    { code: 'cs', label: 'Čeština', flag: '🇨🇿' },
+    { code: 'cz', label: 'Čeština', flag: '🇨🇿' },
     { code: 'ru', label: 'Русский', flag: '🇷🇺' },
     { code: 'ua', label: 'Українська', flag: '🇺🇦' },
   ];

@@ -25,7 +25,7 @@ export const Footer = () => {
 
   const languages = [
     { code: 'en', label: 'English' },
-    { code: 'cs', label: 'Čeština' },
+    { code: 'cz', label: 'Čeština' },
     { code: 'ru', label: 'Русский' },
     { code: 'ua', label: 'Українська' }
   ];

@@ -1,15 +1,15 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import en from '../lang/en.json';
 import ru from '../lang/ru.json';
-import cs from '../lang/cs.json';
+import cz from '../lang/cz.json';
 import ua from '../lang/ua.json';
 
-type Language = 'en' | 'ru' | 'cs' | 'ua';
+type Language = 'en' | 'ru' | 'cz' | 'ua';
 
 const translations = {
   en,
   ru,
-  cs,
+  cz,
   ua
 };
 
@@ -22,18 +22,13 @@ interface I18nContextType {
 const I18nContext = createContext<I18nContextType | undefined>(undefined);
 
 export const I18nProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [lang, setLangState] = useState<Language>('cs');
+  const [lang, setLangState] = useState<Language>('cz');
 
   useEffect(() => {
-    // Detect browser language or load from localStorage
+    // Keep Czech as the default unless the user explicitly selected a language before.
     const savedLang = localStorage.getItem('appLang') as Language;
     if (savedLang && translations[savedLang]) {
       setLangState(savedLang);
-    } else {
-      const browserLang = navigator.language.split('-')[0] as Language;
-      if (translations[browserLang]) {
-        setLangState(browserLang);
-      }
     }
   }, []);
 
