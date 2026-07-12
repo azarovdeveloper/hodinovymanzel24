@@ -2,6 +2,7 @@ import React from 'react';
 import { useI18n } from '../context/I18nContext';
 import { motion } from 'motion/react';
 import { Phone, MessageCircle } from 'lucide-react';
+import heroImage from '../../assets/1.jpg';
 
 export const Hero = () => {
   const { t } = useI18n();
@@ -59,7 +60,7 @@ export const Hero = () => {
           >
             <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/3] lg:aspect-square">
               <img 
-                src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" 
+                src={heroImage}
                 alt="Handyman person working" 
                 className="w-full h-full object-cover"
               />
