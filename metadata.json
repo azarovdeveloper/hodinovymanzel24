@@ -1,0 +1,6 @@
+{
+  "name": "Man for All Jobs",
+  "description": "Professional Handyman Services Landing Page",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,88 @@
+{
+  "navbar": {
+    "home": "Home",
+    "services": "Services",
+    "gallery": "Gallery",
+    "why_us": "Why Us",
+    "reviews": "Reviews",
+    "faq": "FAQ",
+    "contacts": "Contacts"
+  },
+  "hero": {
+    "title": "Professional Handyman Services",
+    "subtitle": "Reliable repairs, renovations and home improvement. Quality work, fair prices and fast response.",
+    "call_now": "Call Now",
+    "whatsapp": "Contact via WhatsApp"
+  },
+  "services": {
+    "title": "Our Services",
+    "items": [
+      "Tile installation", "Bathroom renovation", "Kitchen renovation", "Drywall installation",
+      "Wall plastering", "Interior painting", "Wallpaper installation", "Laminate flooring",
+      "Vinyl flooring", "Hardwood flooring", "Ceiling installation", "Electrical repairs",
+      "Lighting installation", "Plumbing repairs", "Furniture assembly", "Door installation",
+      "Window installation", "Kitchen installation", "Bathroom fixtures", "Shelves and cabinets",
+      "TV mounting", "Curtain installation", "Garden maintenance", "Lawn mowing",
+      "Fence installation", "Deck repairs", "Roof repairs", "Exterior repairs",
+      "Small construction works", "Demolition", "General home repairs", "Emergency handyman services"
+    ]
+  },
+  "why_us": {
+    "title": "Why Choose Us",
+    "items": [
+      "10+ years experience", "High quality workmanship", "Fair pricing", "Fast response",
+      "Reliable and punctual", "Professional tools", "Indoor & Outdoor work", "Free consultation"
+    ]
+  },
+  "process": {
+    "title": "Work Process",
+    "steps": [
+      {"title": "Contact", "desc": "Reach out to us with your requirements."},
+      {"title": "Free Estimate", "desc": "We provide a transparent quote."},
+      {"title": "Work Begins", "desc": "Professional execution of your project."},
+      {"title": "Project Completed", "desc": "You enjoy the perfect result!"}
+    ]
+  },
+  "gallery": {
+    "title": "Our Work"
+  },
+  "reviews": {
+    "title": "Customer Reviews",
+    "items": [
+      {"name": "John D.", "text": "Excellent service, very professional and quick!"},
+      {"name": "Sarah M.", "text": "Renovated my bathroom beautifully. Highly recommended."},
+      {"name": "Michael K.", "text": "Arrived on time and fixed my plumbing issue in no time."},
+      {"name": "Emma W.", "text": "Very fair pricing for the quality of work delivered."},
+      {"name": "David L.", "text": "Assembled all my IKEA furniture perfectly without a scratch."},
+      {"name": "Anna P.", "text": "The best handyman I've ever hired. Will call again!"}
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {"q": "How much does it cost?", "a": "Pricing depends on the project scope. Contact us for a free estimate."},
+      {"q": "Do you provide materials?", "a": "Yes, we can provide materials or work with the ones you have."},
+      {"q": "Do you work on weekends?", "a": "Yes, we offer weekend appointments upon request."},
+      {"q": "Do you offer emergency services?", "a": "We handle urgent requests whenever possible. Call us for emergencies."},
+      {"q": "Which areas do you serve?", "a": "We serve the entire metropolitan area and surrounding suburbs."},
+      {"q": "How quickly can you arrive?", "a": "For emergencies, we aim to arrive within 1-2 hours."}
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "viber": "Viber",
+    "email": "Email",
+    "working_hours_title": "Working Hours",
+    "working_hours": "Mon - Sun: 8:00 AM - 8:00 PM",
+    "service_area_title": "Service Area",
+    "service_area": "Prague & Central Bohemia"
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© 2024 Man for All Jobs. All rights reserved."
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "navbar": {
+    "home": "Domů",
+    "services": "Služby",
+    "gallery": "Galerie",
+    "why_us": "Proč my",
+    "reviews": "Recenze",
+    "faq": "Časté dotazy",
+    "contacts": "Kontakty"
+  },
+  "hero": {
+    "title": "Profesionální Hodinový Manžel",
+    "subtitle": "Spolehlivé opravy, rekonstrukce a vylepšení domácnosti. Kvalitní práce, férové ceny a rychlá odezva.",
+    "call_now": "Zavolat Nyní",
+    "whatsapp": "Kontaktovat přes WhatsApp"
+  },
+  "services": {
+    "title": "Naše Služby",
+    "items": [
+      "Pokládka obkladů", "Rekonstrukce koupelny", "Rekonstrukce kuchyně", "Montáž sádrokartonu",
+      "Omítání stěn", "Malování interiérů", "Lepení tapet", "Pokládka laminátu",
+      "Pokládka vinylu", "Pokládka parket", "Montáž podhledů", "Elektrikářské opravy",
+      "Instalace osvětlení", "Instalatérské opravy", "Montáž nábytku", "Instalace dveří",
+      "Instalace oken", "Montáž kuchyně", "Instalace sanity", "Police a skříně",
+      "Montáž TV na zeď", "Instalace garnýží", "Údržba zahrady", "Sekání trávy",
+      "Stavba plotů", "Opravy teras", "Opravy střech", "Venkovní úpravy",
+      "Drobné stavební práce", "Bourací práce", "Běžné domácí opravy", "Pohotovostní služby"
+    ]
+  },
+  "why_us": {
+    "title": "Proč si vybrat nás",
+    "items": [
+      "Více než 10 let zkušeností", "Vysoká kvalita práce", "Férové ceny", "Rychlá odezva",
+      "Spolehlivost a dochvilnost", "Profesionální nářadí", "Vnitřní i venkovní práce", "Konzultace zdarma"
+    ]
+  },
+  "process": {
+    "title": "Jak pracujeme",
+    "steps": [
+      {"title": "Kontakt", "desc": "Ozvete se nám se svými požadavky."},
+      {"title": "Odhad zdarma", "desc": "Připravíme vám transparentní cenovou nabídku."},
+      {"title": "Začátek prací", "desc": "Profesionální provedení vašeho projektu."},
+      {"title": "Dokončený projekt", "desc": "Užijte si dokonalý výsledek!"}
+    ]
+  },
+  "gallery": {
+    "title": "Naše Práce"
+  },
+  "reviews": {
+    "title": "Hodnocení Zákazníků",
+    "items": [
+      {"name": "Jan D.", "text": "Skvělý servis, velmi profesionální a rychlý!"},
+      {"name": "Klára M.", "text": "Krásně zrekonstruovali mou koupelnu. Vřele doporučuji."},
+      {"name": "Michal K.", "text": "Přijeli včas a obratem vyřešili problém s potrubím."},
+      {"name": "Ema W.", "text": "Velmi férové ceny za tak vysokou kvalitu práce."},
+      {"name": "David L.", "text": "Perfektně složili všechen nábytek z IKEA bez jediného škrábance."},
+      {"name": "Anna P.", "text": "Nejlepší řemeslník, jakého jsem si najala. Určitě zavolám znovu!"}
+    ]
+  },
+  "faq": {
+    "title": "Časté Dotazy",
+    "items": [
+      {"q": "Kolik to stojí?", "a": "Cena závisí na rozsahu projektu. Kontaktujte nás pro odhad zdarma."},
+      {"q": "Zajišťujete materiál?", "a": "Ano, materiál můžeme zajistit my, nebo pracovat s vaším."},
+      {"q": "Pracujete o víkendech?", "a": "Ano, na vyžádání nabízíme i víkendové termíny."},
+      {"q": "Nabízíte pohotovostní služby?", "a": "Naléhavé požadavky řešíme, kdykoli je to možné. V případě nouze volejte."},
+      {"q": "V jakých oblastech působíte?", "a": "Obsluhujeme celou metropolitní oblast a přilehlá předměstí."},
+      {"q": "Jak rychle můžete přijet?", "a": "V naléhavých případech se snažíme přijet do 1-2 hodin."}
+    ]
+  },
+  "contact": {
+    "title": "Kontaktujte Nás",
+    "phone": "Telefon",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "viber": "Viber",
+    "email": "E-mail",
+    "working_hours_title": "Pracovní doba",
+    "working_hours": "Po - Ne: 8:00 - 20:00",
+    "service_area_title": "Oblast působení",
+    "service_area": "Praha a Středočeský kraj"
+  },
+  "footer": {
+    "privacy": "Zásady ochrany osobních údajů",
+    "terms": "Podmínky služby",
+    "copyright": "© 2024 Hodinový Manžel. Všechna práva vyhrazena."
+  }
+}
