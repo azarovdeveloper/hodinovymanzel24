@@ -2,7 +2,7 @@ import React from 'react';
 import { useI18n } from '../context/I18nContext';
 import { motion } from 'motion/react';
 import { Phone, MessageCircle } from 'lucide-react';
-import heroImage from '../../assets/1.jpg';
+import heroImage from '../../assets/0.png';
 
 export const Hero = () => {
   const { t } = useI18n();

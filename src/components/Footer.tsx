@@ -51,8 +51,8 @@ export const Footer = () => {
       
       <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8 w-full md:w-auto">
         <div className="text-center md:text-right">
-          <p className="text-[10px] text-slate-400 uppercase tracking-tighter">Area</p>
-          <p className="text-xs text-white">Prague & Surroundings</p>
+          <p className="text-[10px] text-slate-400 uppercase tracking-tighter">Azz Tech</p>
+          <p className="text-xs text-white">Design</p>
         </div>
         <div className="hidden md:block h-8 w-px bg-white/10"></div>
         <div className="text-center md:text-right">

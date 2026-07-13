@@ -2,14 +2,20 @@ import React, { useState } from 'react';
 import { useI18n } from '../context/I18nContext';
 import { motion, AnimatePresence } from 'motion/react';
 import { X, ZoomIn } from 'lucide-react';
+import img1 from '../../assets/1.png';
+import img3 from '../../assets/3.png';
+import img4 from '../../assets/4.png';
+import img5 from '../../assets/5.png';
+import img6 from '../../assets/6.png';
+import img7 from '../../assets/7.png';
 
 const images = [
-  "https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1540569014015-19a7be504e3a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1534398079543-7ae6d016b86a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  img1,
+  img3,
+  img4,
+  img5,
+  img6,
+  img7
 ];
 
 export const Gallery = () => {

@@ -2,6 +2,8 @@ import React from 'react';
 import { useI18n } from '../context/I18nContext';
 import { motion } from 'motion/react';
 import { CheckCircle2 } from 'lucide-react';
+import img2 from '../../assets/2.png';
+
 
 export const WhyChooseUs = () => {
   const { t } = useI18n();
@@ -19,7 +21,7 @@ export const WhyChooseUs = () => {
               className="relative rounded-3xl overflow-hidden shadow-xl aspect-square md:aspect-auto md:h-full"
             >
               <img 
-                src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
+                src={img2}
                 alt="Handyman person working" 
                 className="w-full h-full object-cover"
               />
